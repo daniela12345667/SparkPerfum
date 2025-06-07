@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spark Perfum</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <div id="welcome-screen">
+    <form id="welcome-form">
+      <h1 class="wtittle">Bienvenido a</h1>
+      <h1 class="wtittle">Spark Perfum</h1>
+      <input type="text" id="nombre" placeholder="Nombre" required />
+      <input type="text" id="apellido" placeholder="Apellido" required />
+      <input type="email" id="correo" placeholder="Correo" required />
+      <input type="tel" id="telefono" placeholder="Teléfono" required />
+      <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+      <button type="submit">Entrar</button>
+    </form>
+  </div>
+
+  <div id="main-content" style="display: none;">
+    <header>
+      <nav class="navbar">
+        <button class="logo-button" onclick="navigate('home')">
+          <img src="img/logo.jpg" alt="Logo Spark Perfum" class="logo" />
+        </button>
+        <button class="hamburger" id="hamburger-btn">
+          &#9776;
+        </button>
+
+
+        <div class="nav-container" id="nav-container">
+          <ul class="nav-links">
+            <li><button onclick="navigate('home')">Home</button></li>
+            <li><button onclick="navigate('quienes')">Quiénes Somos</button></li>
+            <li><button onclick="navigate('servicios')">Servicios</button></li>
+            <li><button onclick="navigate('programas')">Programas</button></li>
+            <li><button onclick="navigate('contacto')">Contacto</button></li>
+          </ul>
+        </div>
+
+
+        <div class="theme-toggle">
+          <div id="clock"></div>
+          <label class="switch">
+            <input type="checkbox" id="theme-switch">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </nav>
+
+      <div class="welcome-bar">
+        <div class="scrolling-text">
+          Bienvenido a Spark Perfum &nbsp; • &nbsp; Bienvenido a Spark Perfum &nbsp;
+           • &nbsp; Bienvenido a Spark Perfum &nbsp; • &nbsp; Bienvenido a Spark Perfum &nbsp;
+           • &nbsp; Bienvenido a Spark Perfum &nbsp; • &nbsp; Bienvenido a Spark Perfum &nbsp;
+           • &nbsp; Bienvenido a Spark Perfum &nbsp; • &nbsp; Bienvenido a Spark Perfum &nbsp;
+           • &nbsp; Bienvenido a Spark Perfum &nbsp; • &nbsp; Bienvenido a Spark Perfum &nbsp;
+           • &nbsp; Bienvenido a Spark Perfum &nbsp; • &nbsp; Bienvenido a Spark Perfum &nbsp;
+           • &nbsp; Bienvenido a Spark Perfum &nbsp; • &nbsp; Bienvenido a Spark Perfum &nbsp;
+           • &nbsp; Bienvenido a Spark Perfum &nbsp; • &nbsp; Bienvenido a Spark Perfum &nbsp;
+           • &nbsp; Bienvenido a Spark Perfum &nbsp; • &nbsp; Bienvenido a Spark Perfum &nbsp;
+           • &nbsp; Bienvenido a Spark Perfum &nbsp; • &nbsp; Bienvenido a Spark Perfum &nbsp;
+           • &nbsp; Bienvenido a Spark Perfum &nbsp; • &nbsp; Bienvenido a Spark Perfum &nbsp;
+           • &nbsp; Bienvenido a Spark Perfum &nbsp; • &nbsp; Bienvenido a Spark Perfum &nbsp;
+           • &nbsp; Bienvenido a Spark Perfum &nbsp; • &nbsp; Bienvenido a Spark Perfum &nbsp;
+           • &nbsp; Bienvenido a Spark Perfum &nbsp; • &nbsp; Bienvenido a Spark Perfum &nbsp;
+           • &nbsp; Bienvenido a Spark Perfum &nbsp; • &nbsp; Bienvenido a Spark Perfum &nbsp;
+           • &nbsp; Bienvenido a Spark Perfum &nbsp; • &nbsp; Bienvenido a Spark Perfum &nbsp;
+           • &nbsp; Bienvenido a Spark Perfum &nbsp; • &nbsp; Bienvenido a Spark Perfum &nbsp; •
+      </div>
+  </div>
+
+      
+
+ 
+    </header>
+
+    <main id="section-content">
+
+    </main>
+
+    <footer>
+      <p>&copy; Todos los derechos reservados a Spark</p>
+    </footer>
+
+  </div>
+</body>
+</html>
